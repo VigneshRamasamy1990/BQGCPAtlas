@@ -23,7 +23,7 @@
   
   Click "Create" to create the subscription.
 
-## Step 4: Use Pub/Sub in Your Application
+## Step 4: Application uses Pub/Sub in listening database level change stream document
   A database level changestream definition allows you to monitor and capture changes occurring at the database level in a MongoDB database. You can use this feature to track changes to documents within any collection in the database.
 
   Format the message that has to be published to the PUB/SUB which we created with above steps in GCP
