@@ -4,10 +4,6 @@
 
 Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment.
 
-# Pre-Request Instructions
-
-Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment.
-
 ## 1. Python
 
 Make sure you have Python installed on your system. If not, you can use the following command to install Python 3 using Homebrew (Mac users):
