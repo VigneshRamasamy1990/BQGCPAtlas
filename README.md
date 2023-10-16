@@ -11,7 +11,7 @@ Make sure you have Python installed on your system. If not, you can use the foll
 ```bash
 brew install python3
 
-**## 2. PyMongo**
+## 2. PyMongo
 To work with MongoDB databases, you'll need to install the PyMongo library. Use the following command to install it:
 
 ```bash
