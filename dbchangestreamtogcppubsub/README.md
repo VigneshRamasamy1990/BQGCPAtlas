@@ -10,7 +10,10 @@
   
   Click the "Create a topic" button.
   
-  Give your topic a name, e.g., "my-topic," and click "Create."
+  Give your topic a name, e.g., "my-topic," and 
+  click "Create."
+
+  ![Alt text](image.png)
 
 ## Step 3: Create a Pub/Sub Subscription
   From the "Topics" tab, select the topic you just created (e.g., "my-topic").
@@ -23,7 +26,11 @@
   
   Click "Create" to create the subscription.
 
+  ![Alt text](image-1.png)
+
 ## Step 4: Application uses Pub/Sub in listening database level change stream document
   A database level changestream definition allows you to monitor and capture changes occurring at the database level in a MongoDB database. You can use this feature to track changes to documents within any collection in the database.
 
   Format the message that has to be published to the PUB/SUB which we created with above steps in GCP
+
+  ![Alt text](<Screenshot 2023-10-17 at 21.19.39.png>)

@@ -12,6 +12,8 @@ Click the "Create a topic" button.
 
 Give your topic a name, e.g., "my-topic," and click "Create."
 
+![Alt text](image.png)
+
 ## Pre-Request before creating the Subscription
 
 ## Create PUB/SUB Schema
@@ -50,11 +52,29 @@ In the Text area define your schema (e.g)
 
 click create (to create schema)
 
+![Alt text](image-1.png)
+
 ## Create DataSet
 
 Select BigQuery from the Left panel
 
+Click on create Subscription
 
+Provide a name for your subscription (e.g., "my-subscription").
+
+select Delivery type (Write to BigQuery)
+
+Then click on the Dataset Dropdown
+
+Click create a new Dataset
+
+In the opened pop-up provide unique dataset name
+
+Select the region
+
+Click create
+
+![Alt text](image-2.png)
 
 ## Step 3: Create a Pub/Sub Subscription
 From the "Topics" tab, select the topic you just created (e.g., "my-topic").
@@ -71,6 +91,16 @@ select Delivery type (Write to BigQuery)
   Select the Use topic schema
 ```
 Click the Create to create the subscription
+
+Table creation for the schema defined in Bigquery
+
+![Alt text](image-5.png)
+
+![Alt text](image-3.png)
+
+## Response of subscription in the Bigquery table
+
+![Alt text](image-4.png)
 
   
 

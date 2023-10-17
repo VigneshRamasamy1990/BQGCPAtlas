@@ -44,5 +44,18 @@ Ensure that you have Python and pip installed on your system before running thes
 
 Now, you're all set to use the application with the required dependencies in place.
 
+## Steps to run each Projects
+
+Import the required package to the main.py
+
+Create object to the python class defined in the project
+
+Call the respective method with the instance object created. (e.g)
+
+```bash
+dbchangestream_to_gcp = ChangeStreamToGCPTopic()
+dbchangestream_to_gcp.to_perform_mongo_changestream_to_gcp_topics()
+```
+
 
 
