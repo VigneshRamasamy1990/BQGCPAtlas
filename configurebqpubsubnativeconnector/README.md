@@ -12,7 +12,8 @@ Click the "Create a topic" button.
 
 Give your topic a name, e.g., "my-topic," and click "Create."
 
-![Alt text](image.png)
+<img width="378" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/7e092f7d-178a-4da6-b8ff-39c82d033cc7">
+
 
 ## Pre-Request before creating the Subscription
 
@@ -52,7 +53,8 @@ In the Text area define your schema (e.g)
 
 click create (to create schema)
 
-![Alt text](image-1.png)
+<img width="452" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/edde0645-f4c0-43a2-a57c-8b22041f3b3a">
+
 
 ## Create DataSet
 
@@ -74,7 +76,8 @@ Select the region
 
 Click create
 
-![Alt text](image-2.png)
+<img width="380" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/686850e2-ba3c-4ea3-aca8-8f7a1a83c459">
+
 
 ## Step 3: Create a Pub/Sub Subscription
 From the "Topics" tab, select the topic you just created (e.g., "my-topic").
@@ -92,15 +95,16 @@ select Delivery type (Write to BigQuery)
 ```
 Click the Create to create the subscription
 
+<img width="438" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/1902f905-cc2f-4764-a860-2b5d10224941">
+
 Table creation for the schema defined in Bigquery
 
-![Alt text](image-5.png)
-
-![Alt text](image-3.png)
+<img width="362" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/3abc3b11-f1a6-4fd0-8ebb-9a57c84422eb">
 
 ## Response of subscription in the Bigquery table
 
-![Alt text](image-4.png)
+<img width="393" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/142e4dc9-5ca6-4b52-985b-4173a5fe488b">
+
 
   
 
