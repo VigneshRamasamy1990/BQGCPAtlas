@@ -2,7 +2,9 @@
 
 # Pre-Request Instructions
 
-Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment.
+Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment. 
+
+Execute the below commands before running each projects
 
 ## 1. Python
 
@@ -46,16 +48,9 @@ Now, you're all set to use the application with the required dependencies in pla
 
 ## Steps to run each Projects
 
-Import the required package to the main.py
+For Each Project run the main.py in its respective folder.
 
-Create object to the python class defined in the project
 
-Call the respective method with the instance object created. (e.g)
-
-```bash
-dbchangestream_to_gcp = ChangeStreamToGCPTopic()
-dbchangestream_to_gcp.to_perform_mongo_changestream_to_gcp_topics()
-```
 
 
 

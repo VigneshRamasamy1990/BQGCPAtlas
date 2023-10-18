@@ -4,8 +4,7 @@ import certifi
 from pymongo import MongoClient
 from google.cloud import pubsub_v1
 from dotenv import load_dotenv
-import sys
-from constants.mongodb import (
+from constants.constants import (
     MONGODB_CONNECTION_URI_STR,
     MONGODB_DATABASE_NAME,
     GCP_TOPIC_PATH,
@@ -13,7 +12,7 @@ from constants.mongodb import (
 )
 
 load_dotenv()
-sys.path.append('/Users/sowbaranikat/mongodbtogcp')
+
 class ChangeStreamToGCPTopic:
     def __init__(self):
         self.mongoconnstr = os.getenv(MONGODB_CONNECTION_URI_STR)
