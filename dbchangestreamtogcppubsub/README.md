@@ -14,8 +14,9 @@
   
   Click the "Create a topic" button.
   
-  Give your topic a name, e.g., "my-topic," and 
-  click "Create."
+  Give your topic a name, e.g., "my-topic," and click "Create."
+
+  If in case need to define the message structure Click use a schema checkbox
 
   <img width="378" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/48faec53-39c2-4411-a0c9-9b0ff6d93f24">
 
