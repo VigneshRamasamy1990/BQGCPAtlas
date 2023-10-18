@@ -1,4 +1,8 @@
-
+## Steps to Run Application
+    1. Follow the common readme file to install all the required softwares
+    2. Update all required feilds in the .env file with the respective details of your's
+    3. Open the terminal in the respective project folder and give "python main.py"
+    
 ## Step 1: Set Up Google Cloud Project and Enable Pub/Sub
   If you haven't already, sign in to your Google Cloud Console.
   
