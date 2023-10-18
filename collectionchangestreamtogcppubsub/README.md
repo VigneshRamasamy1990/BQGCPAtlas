@@ -17,6 +17,8 @@
   
   Give your topic a name, e.g., "my-topic," and click "Create."
 
+  If in case need to define the message structure Click use a schema checkbox
+
   <img width="378" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/90228a4e-e735-4b12-a5b7-672c76980c15">
 
   
