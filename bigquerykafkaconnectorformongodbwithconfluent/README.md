@@ -28,6 +28,28 @@
 
   <img width="452" alt="image" src="https://github.com/TSowbaranika/BQGCPAtlas/assets/109083730/a8161dc9-7b93-4f4e-b5f3-265e15080a5a">
 
+  ## Steps to Generate GCP Credentials file
+
+  Create a Service Account:
+
+      Open the Google Cloud Console.
+      Select or create a GCP project.
+      In the navigation menu, go to "IAM & Admin" > "Service accounts."
+      Click the "Create Service Account" button.
+      Fill in the required information for the service account, including a name and description.
+      Choose the role(s) you want to grant to the service account (e.g., Editor, Storage Admin, etc.).
+      Click "Continue."
+      Optional: You can add users to this service account later to grant them access.
+ 
+ Generate a Key File:
+
+      After creating the service account, on the "Service accounts" page, find the service account you created.
+      In the "Actions" column, click on the three vertical dots (⋮) and select "Create Key."
+      Choose the key format: JSON is recommended.
+      Click "Create" to generate the key file.
+      The JSON key file will be downloaded to your local machine.
+  
+  
   ## Steps to create Google BigQuery Sink connector
 
   With the created cluster in the confluent 
