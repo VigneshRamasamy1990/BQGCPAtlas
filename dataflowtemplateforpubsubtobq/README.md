@@ -45,7 +45,7 @@
   
   Provide Job Name
   
-  Provide Reginad endpoint
+  Provide Regional endpoint
   
   In Dataflow Template dropdown select the pubsub_subscription_to_bigquery
   
