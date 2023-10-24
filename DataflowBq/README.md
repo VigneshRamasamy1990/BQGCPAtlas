@@ -1,4 +1,4 @@
-## Pre-Requests
+## Pre-requisite
 - **Create PUB/SUB Topic:**
   * In the Google Cloud Console, navigate to "Pub/Sub" from the left-side menu.
   * Click on the "Topics" tab.
