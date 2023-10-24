@@ -8,9 +8,9 @@
 ## Steps to create Mongodb Atlas Source
   Create the Default Environment and give clustername once you have created confluent account
 
-  Click on the "Connectors" in the search bar type "MongoDB Atlas Source connector" then click on the connector will follow thw below steps to create the connector
+  Click on the "Connectors" in the search bar type "MongoDB Atlas Source connector" then click on the connector will follow the below steps to create the connector
 
-    - Give topic Name then click continue
+- Give topic Name then click continue
     - In Kafka credentials click "Generate API key credential"
     - In Authentication 
         * Give Mongodb Host name
