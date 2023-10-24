@@ -1,4 +1,4 @@
-# Pre-Request
+# Pre-requisite
 
 ## Create MongoDB Cluster with Database and Collections
 - **Create an Account**:
