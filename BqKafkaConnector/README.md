@@ -1,4 +1,4 @@
-## Pre-Request
+## Pre-requisite
 
 - A MongoDB cluster with a defined Database and Collection that must be used in the Kafka connector in Confluent.
 - A Confluent account.
