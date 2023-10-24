@@ -1,9 +1,9 @@
-## Pre-Request Instructions
-   Make sure you have Mongodb cluster with defined Database and Collection that has to be used in the Kafka connector in confluent
+## Pre-Request
+   Mongodb cluster with defined Database and Collection that has to be used in the Kafka connector in confluent
 
-   Make sure to create Confluent account.
+   Confluent account.
 
-   Also Create the GCP account
+   GCP account
 
 ## Steps to create Mongodb Atlas Source
   Create the Default Environment and give clustername once you have created confluent account
