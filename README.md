@@ -1,39 +1,39 @@
 # Pre-Request
 
-## Create MongoDb Cluster with Database and Collections
-- Create an Account:
+## Create MongoDB Cluster with Database and Collections
+- **Create an Account**:
   * If you don't already have one, create an account with your MongoDB cloud service provider. For this example, we'll use MongoDB Atlas.
-- Login to the Mongodb Atlas with exsisting account credential
-- Create Cluster with whitelisting the required Ip's to be accessed
-- Create the Database and the collection in the cluster created
+- **Log in**:
+  * Log in to the MongoDB Atlas with existing account credentials.
+- **Create Cluster**:
+  * Create a Cluster and whitelist the required IPs to be accessed.
+- **Create Database and Collection**:
+  * Create the Database and the Collection in the Cluster.
 
-## Create GCP account
-- Create an Account:
+## Create GCP Account
+- **Create an Account**:
   * If you don't already have one, create an account with your GCP provider.
-- Log-in to the account with the credentials
-- Click on the API's and Service in left panel then Enable the API's services
+- **Log in**:
+  * Log in to the account with the credentials.
+- **Enable APIs**:
+  * Click on the APIs and Service in the left panel, then enable the API's services.
 
 ## Create Confluent Account
-- Create an Account:
+- **Create an Account**:
   * If you don't already have one, create an account with your Confluent provider.
-- Log-in to the account with the credentials
-- Click on the Environment and select "Default" then Select cluster create cluster with specific name.
+- **Log in**:
+  * Log in to the account with the credentials.
+- **Create Cluster**:
+  * Click on the Environment and select "Default," then select cluster and create a cluster with a specific name.
 
-## Software to be installed to run the application
-- Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment. 
+## Software to be Installed to Run the Application
+Before you start using this application, ensure that you have the necessary software and libraries installed. Follow these steps to set up your development environment:
 
-- Execute the below commands before running each project
-## 1. Poetry setup
-To run the application 1st initiate the poetry in you root directory
+- **Poetry Setup**:
+  ```bash
+  poetry init
+  poetry install
 
-```bash
-poetry init
-```
-Install poetry to the application.
-
-```bash
-poetry install
-```
 
 
 ## 2. Python
